@@ -1,0 +1,117 @@
+
+#dog_world_acti .acti_top{
+    width: 100%;
+    height: 350px;
+    background-color: #ededed;
+    text-align: center;
+    padding-top: 90px;
+}
+.acti_top .logo_two{
+
+}
+.acti_top .title_two{
+    font-size: 50px;
+    font-family: "黑体";
+    color: gray;
+    text-align: center;
+    padding: 50px;
+}
+
+
+/*中间部分*/
+#dog_world_acti .acti_mid{
+    width: 100%;
+    height: 340px;
+    background: url("../images/pic02.jpg");
+    background-size: cover;
+}
+#dog_world_acti .acti_mid .title{
+    font-size: 24px;
+    color: #ffffff;
+    text-align: center;
+    padding-top:50px;
+}
+#dog_world_acti .acti_mid .info{
+    color: #ffffff;
+    font-size: 14px;
+    text-align: center;
+}
+#dog_world_acti .acti_mid form{
+    display: inline-block;
+    margin-top: 50px;
+    margin-left: 120px;
+}
+#dog_world_acti #submit{
+    display: inline-block;
+    width: 236px;
+    height: 36px;
+    background-color: #BE4E48;
+    font-size: 14px;
+    color: #ffffff;
+    font-family: "微软雅黑";
+    border: none;
+}
+#dog_world_acti .acti_mid .select{
+    position: relative;
+    display: inline-block;
+}
+#dog_world_acti .acti_mid form select{
+    width: 236px;
+    height: 36px;
+    padding-left: 10px;
+    font-size: 12px;
+    color: #a9a6a6;
+    margin-right: 28px;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance:none;
+}
+#dog_world_acti .acti_mid form select:hover{
+    border: 1px solid #BE4F49;
+}
+#dog_world_acti .acti_mid .select:after{
+    content: '';
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    display: inline-block;
+    right: 35px;
+    top: 50%;
+    margin-top: -10px;
+    background: url("../images/icon-7.png");
+    background-size: cover;
+}
+/*下部分*/
+#dog_world_acti .acti_bottom{
+    position: relative;
+    width: 100%;
+    height: 600px;
+    background-color: #f7f7f7;
+    padding-top: 100px;
+}
+#dog_world_acti .acti_bottom .list{
+    display: inline-block;
+    width: 1008px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+#dog_world_acti .acti_bottom .part{
+    display: inline-block;
+    margin-left: 36px;
+}
+#dog_world_acti .acti_bottom .part.first{
+    margin-left: 0;
+}
+
+#dog_world_acti .acti_bottom .part h4{
+    margin: 13px;
+    text-align: center;
+    font-family: "微软雅黑";
+}
+#dog_world_acti .acti_bottom .part p{
+    text-align: center;
+    font-size:  "微软雅黑";
+    font-size: 12px;
+    color: #828281;
+}

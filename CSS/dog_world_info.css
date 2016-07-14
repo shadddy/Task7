@@ -1,0 +1,163 @@
+#dog_world_info{
+    width: 100%;
+    height: 1087px;
+    background-color: #ffffff;
+}
+#dog_world_info .part_1{
+    width: 100%;
+    height: 566px;
+}
+#dog_world_info .part_1 .banner{
+    position: relative;
+    height: 100%;
+    width: 65%;
+    background: url("../images/1.jpg");
+    background-size: cover;
+    padding-top: 134px;
+    text-align: center;
+    line-height: 1;
+}
+#dog_world_info .part_1 .banner .line_1{
+    font-size: 50px;
+    font-family: "微软雅黑";
+    color: #ffffff;
+}
+#dog_world_info .part_1 .banner .line_2{
+    font-size: 150px;
+    font-family: "微软雅黑";
+    color: #ffffff;
+}
+#dog_world_info .part_1 .banner .line_3{
+    font-size: 16px;
+    font-family: "微软雅黑";
+    color: #ffffff;
+}
+#dog_world_info .part_1 .banner .line_4{
+    font-size: 16px;
+    font-family: "微软雅黑";
+    color: #ffffff;
+}
+#dog_world_info .part_1 .banner:after{
+    content: '';
+    width: 0;
+    height: 0;
+    border-right: 30px solid #ffffff;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+    position: absolute;
+    right: 0;
+    top: 50%;
+}
+#dog_world_info .part_1 .info{
+    width: 34%;
+    height: 100%;
+    position: relative;
+    text-align: center;
+    padding-top: 165px;
+}
+#dog_world_info .part_1 .info p{
+    width: 292px;
+    margin: 0 auto;
+    font-size: 12px;
+    color: #aca7a7;
+    font-family: "宋体";
+    margin-top: 31px;
+}
+#dog_world_info .part_1 .info h3{
+    text-align: center;
+    font-size: 20px;
+    color: black;
+}
+#dog_world_info .part_1 .info h3 span{
+    color: #e7504E;
+}
+#dog_world_info .part_1 .info .btn{
+    display: block;
+    width: 105px;
+    height: 33px;
+    border: 1px solid #e4676a;
+    text-align: center;
+    color: #e4676a;
+    line-height: 33px;
+    margin-top: 51px;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+#dog_world_info .part_1 .info .btn:hover{
+    color: #ffffff;
+    background-color: #e4676a;
+}
+#dog_world_info .part_1 .info ul{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 26px;
+}
+#dog_world_info .part_1 .info ul li{
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    border: 1px solid #929292;
+    background-color: #ffffff;
+    cursor: pointer;
+}
+#dog_world_info .part_1 .info ul .active{
+    background-color: #929292;
+}
+#dog_world_info .part_2{
+    width: 100%;
+    height: 521px;
+}
+#dog_world_info .part_2 li{
+    float: left;
+    width: 33%;
+    height: 100%;
+    text-align: center;
+    font-size: 21px;
+    font-family: "黑体";
+    padding-top: 173px;
+}
+#dog_world_info .part_2 ul{
+    width: 100%;
+    height: 100%;
+}
+#dog_world_info .part_2 li .btn{
+    display: inline-block;
+    width: 170px;
+    height: 43px;
+    line-height: 43px;
+    margin-top: 25px;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+#dog_world_info .part_2 .btn:hover{
+    color: #e8504e;
+    background-color: #ffffff;
+}
+#dog_world_info .part_2 .first_part{
+    color: #ffffff;
+    background-color: #e8504e;
+}
+#dog_world_info .part_2 .first_part .btn{
+    border: 1px solid #ffffff;
+}
+#dog_world_info .part_2 .second_part{
+    color: black;
+    background-color: #ffffff;
+}
+#dog_world_info .part_2 .second_part .btn:hover{
+    color: #ffffff;
+    background-color: #e8504e;
+}
+#dog_world_info .part_2 .second_part .btn{
+    color: #e8504e;
+    border: 1px solid #e8504e;
+}
+#dog_world_info .part_2 .third_part{
+    position: relative;
+    background: url("../images/2.jpg");
+    background-size: cover;
+}

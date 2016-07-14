@@ -1,0 +1,46 @@
+#contact{
+    width: 100%;
+    height: 358px;
+    background-color: #33363f;
+    text-align: center;
+    padding-top: 93px;
+}
+#contact h3{
+    font-size: 21px;
+    font-family: "黑体";
+    color: #ffffff;
+    font-weight: normal;
+    margin-bottom: 12px;
+}
+#contact p{
+    font-size: 12px;
+    color: #ffffff;
+    font-family: "黑体";
+    line-height: 2;
+    letter-spacing: 2px;
+}
+#contact .con_email{
+    width: 511px;
+    height: 41px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 39px;
+}
+#contact .con_email input{
+    float: left;
+    display: inline-block;
+    border: none;
+    height: 100%;
+}
+#contact #email{
+    width: 413px;
+    padding-left: 10px;
+}
+#contact #submit{
+    width: 80px;
+    background-color: #707278;
+    font-size: 15px;
+    color: #ffffff;
+    font-family: "微软雅黑";
+}

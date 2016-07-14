@@ -1,0 +1,76 @@
+#banner{
+    width: 100%;
+    height: 940px;
+    overflow:hidden;
+}
+#banner .banner_img{
+    width: 100%;
+    height: 690px;
+    background: url("../images/dog2.jpg");
+    background-size: cover;
+    padding-top: 228px;
+    padding-left: 116px;
+}
+#banner .title{
+    color: #ffffff;
+    font-size: 50px;
+    font-family: "微软雅黑";
+}
+#banner .banner_img p{
+    color: #ffffff;
+    margin: 10px;
+    font-family: "微软雅黑";
+}
+#banner .start_button{
+    display: block;
+    width: 330px;
+    height: 60px;
+    background-color: #E74f4d;
+    text-align: center;
+    font-size: 30px;
+    color: #ffffff;
+    line-height: 63px;
+    font-size: "微软雅黑";
+    margin-top: 50px;
+    cursor: pointer;
+}
+#banner .start_button:hover{
+    color: #E74f4d;
+    background-color: #ffffff;
+}
+#banner .down_options{
+    width: 100%;
+    height: 250px;
+    background-color: #ffffff;
+    padding-top:44px;
+    margin-left:1px;
+}
+#banner .down_options li{
+    float: left;
+    width: 25%;
+    height: 100%;
+    font-size: 14px;
+    color: #787476 ;
+    word-wrap : break-word;
+    font-family: "黑体";
+}
+#banner .down_options .first{
+    background:url("../images/icon-3.jpg")top center no-repeat;
+}
+#banner .down_options .second{
+    background: url("../images/icon-4.jpg")top center no-repeat;
+}
+#banner .down_options .third{
+    background: url("../images/icon-5.jpg")top center no-repeat;
+}
+#banner .down_options .forth{
+    background: url("../images/icon-6.jpg")top center no-repeat;
+}
+#banner .down_options li p{
+    margin-top: 89px;
+    padding-left: 82px;
+    padding-right: 82px;
+    text-align: center;
+    height: 52px;
+    border-right:1px solid #787476 ;
+}
